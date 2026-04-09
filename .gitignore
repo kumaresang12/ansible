@@ -1,0 +1,17 @@
+#Ignore the system files
+.*
+*.swp
+*.bak
+
+#Include these directories and files
+!/roles/
+!/repo/
+!/playbooks/
+!/logs/
+!/collections/
+!/inventories/
+!/inventory/
+!/group_vars/
+!/host_vars/
+!/tmp/
+
